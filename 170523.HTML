@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src='https://code.jquery.com/jquery-3.7.0.min.js'></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('button').click(function(){
+                $('div').animate({left:'700px'})
+            })
+        })
+    </script>
+</head>
+<body>
+    Clique no botão para animar a DIV <br/>
+    <div style="background: black; height: 30px; width: 30px; position: absolute;">
+    </div>
+    <br/><br/>
+    <button>Clique Aqui</button>
+</body>
+</html>
